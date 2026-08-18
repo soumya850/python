@@ -1,6 +1,6 @@
-num=int(input("enter a number:"))
-if num %2==0:
-    print("even number")
-else:
-    print("odd number")
+for i in range (1,25):
+    if i %2==0:
+        print("even number")
+    else:
+        print("odd number")
 
